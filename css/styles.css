@@ -1,0 +1,120 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #434455;
+    background-color: Dairy#FCFCFC;
+    line-height: 1.5;
+    letter-spacing: %2;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+header {
+    box-sizing: border-box;
+    width: 1140px;
+    height: 72px;
+    border: 1px;
+    text-align: justify;
+}
+footer {
+    box-sizing: border-box;
+    width: 1440px;
+    height: 312px;
+    text-align: left;
+    background-color: #2E2F42;
+}
+footer>p {
+    color: #F4F4FD;
+}
+h1,h2,h3,h4 {
+    color: #2E2F42;
+}
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    background-color: #2E2F42;
+    padding: 100px;
+    margin: 100px;
+  border: 0px solid #000;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+    
+}
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    
+}
+ul {
+    list-style-type: none;
+    
+}
+.sc1 {
+    width: 1440px;
+    height: 600px;
+    background-color: #2E2F42;
+    text-align: center;
+    ;
+}
+.sc3 {
+    width: 1440px;
+    top: 1016px;
+    background-color: #F4F4FD;
+
+}
+.logo {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: %3;
+    text-alignment: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo1color {
+    color: #2E2F42;
+}
+.logo2color {
+    color: #F4F4FD;
+
+}
+a {
+    color: #2E2F42;
+    font-weight: 500;
+    text-decoration: none;
+}
+button {
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: %4;
+    text-alignment: center;
+    background-color: #4D5AE5;
+}
+a:hover, a:focus {
+    color: #4D5AE5;
+}
+button:hover, button:focus {
+    color: #434455;
+    text-decoration: underline;
+}
+.logo:hover, .logo:focus{
+   color:#4D5AE5;
+}
+.card1, .card2, .card3, .card4 {
+    background-color: white;
+    width: 264px;
+    height: 380px;
+}
+
