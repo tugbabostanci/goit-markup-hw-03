@@ -14,7 +14,7 @@ body {
 header {
     width: 1140px;
     height: 72;
-    border: 1px;
+    border-radius: 1%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -29,6 +29,7 @@ header {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    width: 1158px;
 }
 main {
     flex-grow: 1;
