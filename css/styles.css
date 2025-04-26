@@ -16,15 +16,15 @@ header {
     height: 72;
     border-radius: 1%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     flex-grow: 1;
     margin-bottom: 0 auto;
-    padding-bottom: 30px;
+    padding: 20px 20px 20px 20px;
     align-self: center;
-
-}
+    border-bottom: radius #000;
+    
 .page-container {
     min-height: 100vh;
     display: flex;
@@ -44,6 +44,9 @@ footer {
     height: 312px;
     text-align: left;
     background-color: #2E2F42;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0 auto;
 }
 footer>p {
     color: #F4F4FD;
@@ -97,33 +100,39 @@ ul {
     gap: 10px;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 100px 70px 70px 100px;
+    padding: 120px 70px 120px 70px;
 }
 .sc3 {
     width: 1440px;
     top: 1016px;
     background-color: #F4F4FD;
-    padding-top: 200px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
 }
 .sc3 ul {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     gap: 10px;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 70px 70px 100px 70px;
+    padding: 120px 70px 120px 70px;
+    flex-wrap: calc();
 }
+
 .sc4 ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     flex-direction: row;
-    justify-content: center;
-    padding: 50px 5px 10px 10px;
+    
+    padding: 120x 120px 120px 120px;
 }
-.sc4 ul>li {
-    width: calc((00% -50px)/6)
+.item {
+    flex: 1 1 calc(33.333% - 10px);
+    max-width: calc(33.333% - 10px);
+    padding: 20px;
+    text-align: center;
 }
 .logo {
     color: #4D5AE5;
