@@ -12,9 +12,8 @@ body {
     
 }
 header {
-    width: 1140px;
-    height: 72px;
     border-radius: 1%;
+    height: 72px;
 }
 .header-container {
     text-align: center;
@@ -22,11 +21,10 @@ header {
     justify-content: space-around;
     align-items: center;
     gap: 10px;
-    margin-bottom: 0 auto;
     padding: 20px 20px 20px 20px;
     border-bottom: radius #000;
     width: 1140px;
-    height: 72px;
+    margin: 0 auto;
     flex-basis: content;
 }
 .header-nav {
@@ -45,17 +43,13 @@ header {
     justify-content: space-around;
 }
 .main {
+    display: flex;
+    flex-direction: row;
     flex-grow: 1;
 }
     
-.page-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    width: 1158px;
 }
 footer {
-    width: 1440px;
     height: 312px;
     text-align: left;
     background-color: #2E2F42;
@@ -149,6 +143,7 @@ ul {
     padding-left: 70px;
     padding-top: 120px;
     padding-bottom: 200px;
+    margin: 0 auto;
 }
 
 .sc4 ul {
@@ -200,7 +195,7 @@ button {
     width: 169px;
     height: 56px;
     border-radius: 4px;
-     
+    padding: 16px 32px 16px 32px;
 }
 a:hover, a:focus {
     color: #4D5AE5;
