@@ -54,8 +54,6 @@ footer {
     text-align: left;
     background-color: #2E2F42;
     padding-bottom: 20px;
-    margin-top: 0px;
-    margin-bottom: 0 auto;
     align-items: center;
     justify-content: center;
 }
@@ -74,7 +72,7 @@ h1,h2,h3,h4 {
 }
 ul {
     margin-top: 0;
-    margin-bottom: ;
+    margin-bottom: 0;
     padding-left: 0;
 }
 h1 {
