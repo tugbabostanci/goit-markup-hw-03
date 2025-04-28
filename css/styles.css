@@ -83,7 +83,7 @@ h1 {
     line-height: 60px;
     background-color: #2E2F42;
   border: 0px solid #000;
-  padding-top: 250px;
+  padding: 200px 450px 0 450px;
   flex-grow: 1;
 }
 h2 {
