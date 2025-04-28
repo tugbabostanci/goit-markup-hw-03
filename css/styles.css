@@ -42,13 +42,13 @@ header {
     gap: 50px;
     justify-content: space-around;
 }
-.main {
+main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-grow: 1;
+    width: 1140px;
 }
     
-}
 footer {
     height: 312px;
     text-align: left;
@@ -194,6 +194,7 @@ button {
     margin-top: 50px;
     width: 169px;
     height: 56px;
+    border: none;
     border-radius: 4px;
     padding: 16px 32px 16px 32px;
 }
