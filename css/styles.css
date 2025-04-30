@@ -155,14 +155,14 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 100px 50px 50px;
+    padding: 50px 0 50px 0;
     width: 1128px;
     height: 1000px;
     margin-left: 156px;
 
 }
 .sc4 ul>li {
-    width: 264px;
+    width: 360px;
 }
 .item {
     flex: 1 1 calc(33.333% - 10px);
