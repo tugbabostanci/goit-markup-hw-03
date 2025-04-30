@@ -163,6 +163,7 @@ ul {
 }
 .sc4 ul>li {
     width: 360px;
+    height: 420px;
 }
 .item {
     flex: 1 1 calc(33.333% - 10px);
