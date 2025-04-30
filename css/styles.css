@@ -115,10 +115,7 @@ ul {
     background-color: white;
     gap: 20px;
 }
-.container4 {
-    width: 1128px;
-    height: 1000px;
-}
+
 .sc2 ul {
     display: flex;
     gap: 10px;
@@ -159,8 +156,9 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 50px 100px 50px 50px;
-    margin-left: 56px;
-    margin-left: 56px;
+    width: 1128px;
+    height: 1000px;
+    margin-left: 156px;
 
 }
 .sc4 ul>li {
